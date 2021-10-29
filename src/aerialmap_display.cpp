@@ -587,7 +587,7 @@ void AerialMapDisplay::transformAerialMap()
   }
 
   // the frame "map" is defined here: https://www.ros.org/reps/rep-0105.html#map
-  std::string const static frameMap = "map";
+  std::string const static frameMap = "base_point";
   std::string const frameNavSatFix = ref_fix_.header.frame_id;
 
   // rotation from the fixed frame into the map frame
